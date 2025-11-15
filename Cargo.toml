@@ -1,0 +1,52 @@
+[package]
+name = "hedged-rpc-client"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Arthur Bretas"]
+description = "High-performance Solana RPC client with request hedging for tail latency elimination"
+repository = "https://github.com/BretasArthur1/hedged-rpc-client"
+keywords = ["solana", "rpc", "hedging", "distributed-systems", "performance"]
+categories = ["asynchronous", "network-programming"]
+readme = "README.md"
+
+[dependencies]
+# Async runtime
+tokio = { version = "1.48", features = [
+    "full",
+    "time",
+    "macros",
+    "rt-multi-thread",
+] }
+futures = "0.3"
+
+# Error handling
+thiserror = "2.0"
+anyhow = "1.0"
+color-eyre = "0.6"
+
+# Solana
+solana-sdk = "3.0"
+solana-client = "3.0"
+solana-commitment-config = { version = "3.0", default-features = false }
+solana-rpc-client-api = "3.0"
+
+# TUI (binary only)
+crossterm = "0.28"
+ratatui = { version = "0.29", default-features = false, features = [
+    "crossterm",
+] }
+
+[dev-dependencies]
+
+[[example]]
+name = "basic_get_account"
+path = "examples/basic_get_account.rs"
+
+[[example]]
+name = "rpc_race"
+path = "examples/rpc_race.rs"
+
+[[example]]
+name = "dual_race"
+path = "examples/dual_race.rs"
