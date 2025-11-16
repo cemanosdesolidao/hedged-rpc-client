@@ -112,9 +112,9 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ```bash
 # Set your RPC endpoints
-export HELIUS_RPC_URL="https://mainnet.helius-rpc.com/?api-key=YOUR_KEY"
-export TRITON_RPC_URL="https://api.mainnet-beta.solana.com"
-export QUICKNODE_RPC_URL="https://your-endpoint.quiknode.pro/YOUR_KEY"
+export HELIUS_RPC_URL="..."
+export TRITON_RPC_URL="..."
+export QUICKNODE_RPC_URL="..."
 
 # Launch the TUI
 cargo run --release
